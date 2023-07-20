@@ -14,9 +14,9 @@ Este projeto é um aplicativo Python que permite baixar imagens de um site e sal
 git clone https://github.com/elizeubarbosaabreu/Baixador-de-Imagens.git
 cd Baixador-de-Imagens
 ~~~
--Crie e ative um ambiente virtual (opcional, mas recomendado):
+- Crie e ative um ambiente virtual (opcional, mas recomendado):
 ~~~
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ~~~
 
