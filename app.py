@@ -4,6 +4,20 @@ import PySimpleGUI as sg
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
+"""  _           _               _                  _      
+| |__   __ _(_)_  ____ _  __| | ___  _ __    __| | ___ 
+| '_ \ / _` | \ \/ / _` |/ _` |/ _ \| '__|  / _` |/ _ \
+| |_) | (_| | |>  < (_| | (_| | (_) | |    | (_| |  __/
+|_.__/ \__,_|_/_/\_\__,_|\__,_|\___/|_|     \__,_|\___|
+                                                       
+ _                                      
+(_)_ __ ___   __ _  __ _  ___ _ __ ___  
+| | '_ ` _ \ / _` |/ _` |/ _ \ '_ ` _ \ 
+| | | | | | | (_| | (_| |  __/ | | | | |
+|_|_| |_| |_|\__,_|\__, |\___|_| |_| |_|
+                   |___/                
+Criado por Elizeu Barbosa Abreu
+"""
 # Função para fazer o download das imagens
 def fazer_download_imagens(url, diretorio_destino):
     # Faz o download do conteúdo HTML
@@ -83,7 +97,10 @@ while True:
         try:
             fazer_download_imagens(url, diretorio_destino)
             sg.popup('Download concluído!')
+            
         except Exception as e:
             sg.popup(f'Ocorreu um erro ao fazer o download das imagens:\n{e}')
+
+        janela['-URL-'].update('')
 
 janela.close()
