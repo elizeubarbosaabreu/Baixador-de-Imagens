@@ -2,6 +2,8 @@
 
 Este projeto é um aplicativo Python que permite baixar imagens de um site e salvá-las em um diretório local. O aplicativo possui uma interface gráfica criada com o PySimpleGUI para facilitar a interação do usuário.
 
+![Captura de tela do App](image/screen.png)
+
 ## Requisitos
 - Python 3.6 ou superior
 - Pacotes Python listados no arquivo requirements.txt
