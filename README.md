@@ -18,7 +18,7 @@ python -m venv venv
 source venv/bin/activate
 ~~~
 
-Obs: Se estiver usando Windows o comando para ativar a máquina virtual é ```venv\Scripts\activate``````
+Obs: Se estiver usando Windows o comando para ativar a máquina virtual é ```venv\Scripts\activate```
 - Instale as dependências do projeto:
 
 ~~~
