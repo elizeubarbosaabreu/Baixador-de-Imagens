@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Para executar o aplicativo, utilize o seguinte comando:
 
 ~~~
-python main.py
+python app.py
 ~~~
 Isso abrirá a interface gráfica do aplicativo.
 
